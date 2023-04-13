@@ -1,0 +1,15 @@
+2023-04-11 15:08:35,145 [main] INFO Automation_NOP_log - ************launching app**********
+2023-04-11 15:08:35,152 [main] WARN Automation_NOP_log - ************warn: launching app**********
+2023-04-11 15:08:35,153 [main] ERROR Automation_NOP_log - ************error: launching app**********
+2023-04-11 15:08:35,154 [main] INFO Automation_NOP_log - Execution on Browser: chrome
+2023-04-11 15:08:43,748 [main] INFO Automation_NOP_log - Application URL: https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F
+2023-04-11 15:08:43,963 [main] INFO Automation_NOP_log - clear the email inputbox
+2023-04-11 15:08:44,080 [main] INFO Automation_NOP_log - enter the value: admin@yourstore.com
+2023-04-11 15:08:44,205 [main] INFO Automation_NOP_log - clear the password inputbox
+2023-04-11 15:08:44,366 [main] INFO Automation_NOP_log - enter the value: admin
+2023-04-11 15:08:44,591 [main] INFO Automation_NOP_log - click on remember me checkbox
+2023-04-11 15:08:44,672 [main] INFO Automation_NOP_log - click on login button
+2023-04-11 15:08:52,510 [main] INFO Automation_NOP_log - validation of application title after login, actual application title: Dashboard / nopCommerce administration
+2023-04-11 15:08:52,518 [main] INFO Automation_NOP_log - click on logout button
+2023-04-11 15:08:57,094 [main] INFO Automation_NOP_log - validation of application title after logout, actual application title: Your store. Login
+2023-04-11 15:08:57,109 [main] INFO Automation_NOP_log - closing app

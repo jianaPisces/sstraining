@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="retryExample.TestNGTransform"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="retryExample.AmazonTest_Priority">
+        <methods>
+          <include name="payment"/>
+          <include name="cancelOrder"/>
+        </methods>
+      </class> <!-- retryExample.AmazonTest_Priority -->
+      <class name="exercise.HRMLogin_Locator">
+        <methods>
+          <include name="launchApp"/>
+          <include name="closeApp"/>
+          <include name="verifyLogout"/>
+        </methods>
+      </class> <!-- exercise.HRMLogin_Locator -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

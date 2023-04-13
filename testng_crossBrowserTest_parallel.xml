@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" thread-count="5" name="Suite">
+
+
+
+
+
+
+	<test thread-count="5" name="ChromeTest">
+
+		<parameter name="soprasteriaBrowser" value="chrome"></parameter>
+		<parameter name="version" value="111"></parameter>
+
+		<classes>
+
+			<class name="crossBrowserTest.NOPCommApp" />
+
+		</classes>
+
+
+
+	</test>
+
+
+
+
+
+
+	<test thread-count="5" name="EdgeTest">
+
+		<parameter name="soprasteriaBrowser" value="edge"></parameter>
+		<parameter name="version" value="112"></parameter>
+		<classes>
+			<class name="crossBrowserTest.NOPCommApp" />
+
+		</classes>
+
+
+
+	</test>
+	
+	
+	<test thread-count="5" name="FirefoxTest">
+
+		<parameter name="soprasteriaBrowser" value="firefox"></parameter>
+		<parameter name="version" value="112"></parameter>
+		<classes>
+			<class name="crossBrowserTest.NOPCommApp" />
+
+		</classes>
+
+
+
+	</test>
+
+
+
+</suite> 
